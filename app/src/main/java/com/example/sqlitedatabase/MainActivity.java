@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         listViewCongViec = findViewById(R.id.listviewCongViec);
         arrayCongViec = new ArrayList<>();
 
-        adapter = new CongViecAdapter(this,R.layout.dong_cong_viec,arrayCongViec);
+        adapter = new
+                CongViecAdapter(this,R.layout.dong_cong_viec,arrayCongViec);
         listViewCongViec.setAdapter(adapter);
         // tạo database
         // context, namedata, con trỏ(factory), phiên bản
@@ -63,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
             arrayCongViec.add(new CongViec(id,ten));
         }
         adapter.notifyDataSetChanged();
+
     }
 
     @Override
