@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     ListView listViewCongViec;
     ArrayList<CongViec> arrayCongViec;
     CongViecAdapter adapter;
+    int abc;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
         getData();
         Toast.makeText(this, "chang", Toast.LENGTH_SHORT).show();
     }
-    
 
     private void getData(){
         arrayCongViec.clear();
