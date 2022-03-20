@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm công việc"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/teal_700"
+        ></TextView>
+    <EditText
+        android:id="@+id/edtThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập thông tin"
+        android:textAlignment="center"
+        android:layout_below="@id/tvThem"
+        ></EditText>
+</RelativeLayout>
