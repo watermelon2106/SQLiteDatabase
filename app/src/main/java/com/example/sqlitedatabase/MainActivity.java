@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     ListView listViewCongViec;
     ArrayList<CongViec> arrayCongViec;
     CongViecAdapter adapter;
-    int abc;
+    int abc = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
