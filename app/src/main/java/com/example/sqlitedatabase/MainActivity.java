@@ -46,7 +46,9 @@ public class MainActivity extends AppCompatActivity {
         // insert data để thêm data
 //        database.QueryData("INSERT INTO CongViec VALUES(null, 'Viet Ung dung ghi chu')");
         getData();
+        Toast.makeText(this, "changed", Toast.LENGTH_SHORT).show();
     }
+    
 
     private void getData(){
         arrayCongViec.clear();
