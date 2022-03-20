@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<CongViec> arrayCongViec;
     CongViecAdapter adapter;
     int abc = 2;
+    float xyz;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
